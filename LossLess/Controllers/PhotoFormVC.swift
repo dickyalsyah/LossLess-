@@ -254,7 +254,7 @@ extension PhotoFormVC {
 
 extension PhotoFormVC {
   func navigationBarSettings() {
-    navigationItem.title = "New photo"
+    navigationItem.title = "Add Item"
     navigationController?.navigationBar.prefersLargeTitles = true
     navigationItem.largeTitleDisplayMode = .always
     let backBtn = UIBarButtonItem(image: UIImage(systemName: "chevron.backward.2"), style: .plain, target: self, action: #selector(dismissForm))
